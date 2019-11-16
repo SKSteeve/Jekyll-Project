@@ -1,0 +1,27 @@
+title: Auto-Kriss
+email: stefaneee@abv.bg
+description: Автосервиз
+destination: docs
+baseurl: "/Jekyll-Project" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: null
+github_username:  SKSteeve
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+
+exclude:
+  - docs
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
