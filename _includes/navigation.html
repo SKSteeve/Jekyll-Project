@@ -1,8 +1,9 @@
 <nav class="nav">
     <ul>
-        {% for page in site.pages %}
+        {% assign navigation_pages = site.pages | sort:"order" %}
+        {% for page in navigation_pages %}
             {% if page.title %}
-            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+            <li class="page-title-{{ page.title | slugify }}"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>

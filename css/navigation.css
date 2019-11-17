@@ -18,10 +18,15 @@
     background: #EEE;
     color: #333;
     text-decoration: none;
+    font-size: medium;
 }
 
 
 .nav ul li a:hover {
     background-color: green;
     color: white;
+}
+
+.nav li.active a {
+    background-color: red;
 }
