@@ -1,15 +1,1 @@
-body {
-    background: rgb(214, 238, 247);
-}
-
-.site {
-    max-width: var(--layout-width, 60em);
-    margin: 0 auto;
-}
-
-.site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-}
 

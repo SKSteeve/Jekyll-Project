@@ -4,3 +4,30 @@
 @import url('layout.css');
 @import url('navigation.css');
 
+body {
+    background: rgb(247, 247, 247);
+}
+
+.site-header { 
+    background-image: url('../ImagesForTheProject/yac.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    max-width: 55em;
+    margin: 0 auto;
+    background-color: rgb(2, 2, 2, 0.8);
+    padding: 1em 2em;
+}
+
+.site-header .site-branding h1 a {
+    text-decoration: none;
+    color: rgb(255, 81, 81);
+}

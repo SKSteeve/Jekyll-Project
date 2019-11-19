@@ -1,32 +1,22 @@
-.nav {
-    text-align: right;
-    padding-top: 0.5em;
-}
-
 .nav ul {
     display: flex;
 }
 
 .nav ul li {
     display: block;
-    margin: 0 0 0.7em;
 }
 
 .nav a {
     display: block;
     padding: 0.5em 1em;
-    background: #EEE;
-    color: #333;
+    color: white;
     text-decoration: none;
     font-size: medium;
 }
 
 
 .nav ul li a:hover {
-    background-color: green;
     color: white;
-}
-
-.nav li.active a {
-    background-color: red;
+    box-shadow: 0 0 2px 2px rgb(255, 81, 81, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
 }
