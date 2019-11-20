@@ -4,6 +4,10 @@
     align-items: center;
     color: white;
     height: 4em;
-    background-color: black;
-    opacity: 0.8;
+    background-color: rgb(49, 49, 49);
+}
+
+.headForForm h2 i {
+    margin-left: 1em;
+    color: rgb(250, 62, 62);
 }
