@@ -14,7 +14,7 @@
     font-size: medium;
 }
 
-
+.nav .current_page a,
 .nav ul li a:hover {
     color: white;
     box-shadow: 0 0 2px 2px rgb(255, 81, 81, 0.9);

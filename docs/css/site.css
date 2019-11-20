@@ -3,6 +3,8 @@
 @import url('typography.css');
 @import url('layout.css');
 @import url('navigation.css');
+@import url('page.css');
+@import url('form.css');
 
 body {
     background: rgb(247, 247, 247);
@@ -20,7 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 20%;
+    min-height: 20%;
     max-width: 55em;
     margin: 0 auto;
     background-color: rgb(2, 2, 2, 0.8);
