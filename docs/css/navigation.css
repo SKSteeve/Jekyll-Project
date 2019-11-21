@@ -4,11 +4,12 @@
 
 .nav ul li {
     display: block;
+    margin-left: 0.4em;
 }
 
 .nav a {
     display: block;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.6em;
     color: white;
     text-decoration: none;
     font-size: medium;
