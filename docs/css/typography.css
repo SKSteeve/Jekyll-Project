@@ -23,3 +23,9 @@ blockquote {
 blockquote p {
     font-style: italic;
 }
+
+
+
+.page-header-bar h2 {
+    font-family: sans-serif;
+}
