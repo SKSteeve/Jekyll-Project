@@ -1,8 +1,8 @@
-
 body {
     background: rgb(247, 247, 247);
 }
 
+/* The site HEADER layout start */
 .site-header { 
     background-image: url('../ImagesForTheProject/yac.jpg');
     background-position: center;
@@ -27,6 +27,40 @@ body {
     color: rgb(255, 81, 81);
 }
 
+/* The site HEADER layout end */
+
+/* The every page-header-bar start */
+.page-header-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 10vh;
+    background-color: rgb(49, 49, 49);
+}
+
+.page-header-bar h2 {
+    animation: headPage 2s 1s forwards;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+.page-header-bar h2 i {
+    margin-left: 1em;
+    color: rgb(250, 62, 62);
+    
+}
+
+@keyframes headPage {
+    0%   { opacity: 0; margin-right: 100vw; }
+    10%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+/* page-header-bar end */
+
+/* The site FOOTER start */
 footer {
     
 }
+
+/* The site FOOTER end */
