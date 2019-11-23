@@ -25,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0.5em 0;
 }
 
 .contacts-wrapper .box-1 .text-1 {
@@ -39,12 +40,17 @@
     border: 2px solid black;
     padding: 0.4em;
     background-color: rgb(64, 68, 75);
+    box-shadow: 0 0 16px 2px;
 }
 
 .map {
     width: 100%;
     display: flex;
     justify-content: center;
+    border: 2px solid black;
+    padding: 0.5em;
+    background-color: rgb(100, 98, 98);
+    box-shadow: 0 0 16px 2px;
 }
 
 
