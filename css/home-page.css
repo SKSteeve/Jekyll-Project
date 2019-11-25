@@ -1,3 +1,17 @@
 .home-page {
     
 }
+
+.home-wrapper {
+    max-width: 55em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-wrapper h3 {
+    padding-bottom: 0.5em;
+}
+
+.home-wrapper .content-head {
+    margin: 4em 0 2em;
+}
