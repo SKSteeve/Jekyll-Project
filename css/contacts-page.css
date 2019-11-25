@@ -40,7 +40,7 @@
     border: 2px solid black;
     padding: 0.5em;
     background-color: rgb(64, 68, 75);
-    box-shadow: 0 0 16px 2px;
+    box-shadow: 0 0 10px 0;
 }
 
 .map {
@@ -50,7 +50,7 @@
     border: 2px solid black;
     padding: 0.5em;
     background-color: rgb(100, 98, 98);
-    box-shadow: 0 0 16px 2px;
+    box-shadow: 0 0 10px 0;
 }
 
 
