@@ -26,10 +26,3 @@
     box-shadow: 0 0 10px 0;
 }
 
-.content-text .content-about ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 5em;
-    list-style: none;
-    font-size: 50px;
-}
