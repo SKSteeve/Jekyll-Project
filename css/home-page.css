@@ -13,12 +13,14 @@
 }
 
 .content-text .part {
-    margin-bottom: 2em;
+    margin-bottom: 8em;
 }
 
 .content-text h3 {
     padding-bottom: 0.5em;
 }
+
+/* content head start */
 
 .content-text .content-head img {
     margin-top: 2em;
@@ -26,3 +28,50 @@
     box-shadow: 0 0 10px 0;
 }
 
+/*content head end */
+
+
+/* About start */
+
+.content-text .content-about {
+
+}
+
+.content-text .content-about .icons-info {
+    margin: 3em 5em 2em 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-text .content-about .icons-info .content-1,
+.content-text .content-about .icons-info .content-2,
+.content-text .content-about .icons-info .content-3 {
+    flex: 1 1 100%;
+}
+
+.content-text .content-about .icons-info i {
+    font-size: 50px;
+    padding-bottom: 0.2em;
+}
+.content-text .content-about .icons-info h4 {
+    padding-bottom: 1em;
+}
+
+.content-text .content-about .icons-info ul {
+    padding-left: 4.5em;
+    text-align: left;
+}
+
+.content-text .content-about .pic {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.content-text .content-about .pic img {
+    width: 400px;
+    height: auto;
+    margin-top: 1em;
+}
+
+/* About end */
