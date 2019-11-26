@@ -62,16 +62,21 @@
     text-align: left;
 }
 
-.content-text .content-about .pic {
+.content-text .content-why .pic {
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.content-text .content-about .pic img {
-    width: 400px;
+.content-text .content-why .pic img {
+    width: 300px;
     height: auto;
     margin-top: 1em;
+    padding: 0.3em;
+    background-color: white;
+    box-shadow: 0 0 10px 0;
+    border: 1px solid black;
 }
+
 
 /* About end */
