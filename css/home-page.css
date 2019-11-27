@@ -62,10 +62,22 @@
     text-align: left;
 }
 
+.content-text .content-about .icons-info .icon-first { color: rgb(116, 116, 241); }
+.content-text .content-about .icons-info .icon-second { color: rgb(227, 230, 52); }
+.content-text .content-about .icons-info .icon-third { color: rgb(247, 8, 40); }
+
+.content-text .content-why section {
+    margin: 1em 8em 3em 8em;
+}
+
+.content-text .content-why section p {
+    padding-top: 1em;
+}
+
 .content-text .content-why .pic {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+    display: block;
+    float: right;
+    padding-left: 2em;
 }
 
 .content-text .content-why .pic img {

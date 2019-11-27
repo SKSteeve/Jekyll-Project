@@ -85,12 +85,7 @@ body {
 .footer-main section ul li {
     list-style: none;
 }
-.footer-main .work-time ul li:nth-child(2) { width: 8.6em; text-align: right; }
-.footer-main .work-time ul li:nth-child(3) { width: 8.6em; text-align: right; }
-.footer-main .work-time ul li:nth-child(4) { width: 8.6em; text-align: right; }
-.footer-main .work-time ul li:nth-child(5) { width: 8.6em; text-align: right; }
-.footer-main .work-time ul li:nth-child(6) { width: 8.6em; text-align: right; }
-.footer-main .work-time ul li:nth-child(1) { width: 8.6em; text-align: right; }
+.footer-main .work-time ul li:nth-child(2) { width: 8.5em; text-align: right; }
 
 
 .footer-main .contact-section li i {
