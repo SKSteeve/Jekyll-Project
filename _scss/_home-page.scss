@@ -6,12 +6,12 @@
         text-align: center;
         
         h3 {
-            padding-bottom: 0.7em;
+            padding-bottom: 1.5em;
         }
         .content-head,
         .content-about,
         .content-why {
-            padding: 5em 2em;
+            padding: 4em 2em;
         }
     }
 }
@@ -31,68 +31,73 @@
 
 
 /* About START */
-.content-text .content-about {
-    border-bottom: 3px solid rgb(124, 124, 124);
+
+.content-text {
+
+    .content-about {
+        border-bottom: 3px solid rgb(124, 124, 124);
+
+        .icons-info {
+            margin: 3em 5em 2em 5em;
+            display: flex;
+            justify-content: space-between;
+            
+            .content-1,
+            .content-2,
+            .content-3 {
+                flex: 1 1 100%;
+            }
+
+            i {
+                font-size: 50px;
+                padding-bottom: 0.2em;
+            }
+
+            h4 {
+                padding-bottom: 1em;
+            }
+
+            ul {
+                padding-left: 4.5em;
+                text-align: left;
+            }
+
+            .icon-first { color: rgb(116, 116, 241); }
+            .icon-second { color: rgb(227, 230, 52); }
+            .icon-third { color: rgb(247, 8, 40); }
+        }
+    }
+
 }
 
-.content-text .content-about .icons-info {
-    margin: 3em 5em 2em 5em;
-    display: flex;
-    justify-content: space-between;
-}
-
-.content-text .content-about .icons-info .content-1,
-.content-text .content-about .icons-info .content-2,
-.content-text .content-about .icons-info .content-3 {
-    flex: 1 1 100%;
-}
-
-.content-text .content-about .icons-info i {
-    font-size: 50px;
-    padding-bottom: 0.2em;
-}
-.content-text .content-about .icons-info h4 {
-    padding-bottom: 1em;
-}
-
-.content-text .content-about .icons-info ul {
-    padding-left: 4.5em;
-    text-align: left;
-}
-
-.content-text .content-about .icons-info .icon-first { color: rgb(116, 116, 241); }
-.content-text .content-about .icons-info .icon-second { color: rgb(227, 230, 52); }
-.content-text .content-about .icons-info .icon-third { color: rgb(247, 8, 40); }
 
 /* About END */
 
 /* Why us START */
 
 .content-text .content-why {
-    /* TO DOOOOOOOOOO */
-}
+    
+    section {
+        margin: 1em 8em 3em 8em;
+        p {
+            padding-top: 1em;
+        }
+    }
 
-.content-text .content-why section {
-    margin: 1em 8em 3em 8em;
-}
-
-.content-text .content-why section p {
-    padding-top: 1em;
-}
-
-.content-text .content-why .pic {
-    display: block;
-    float: right;
-    padding-left: 2em;
-}
-
-.content-text .content-why .pic img {
-    width: 300px;
-    height: auto;
-    margin-top: 1em;
-    padding: 0.3em;
-    background-color: white;
-    box-shadow: 0 0 10px 0;
-    border: 1px solid black;
+    .pic {
+        display: block;
+        float: right;
+        padding-left: 2em;
+        
+        img {
+            width: 300px;
+            height: auto;
+            margin-top: 1em;
+            padding: 0.3em;
+            background-color: white;
+            box-shadow: 0 0 10px 0;
+            border: 1px solid black;
+        }
+    }
 }
 /* Why us END */
