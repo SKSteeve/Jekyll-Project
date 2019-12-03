@@ -1,40 +1,38 @@
-.home-page {
-    
-}
-
 .home-wrapper {
     max-width: 55em;
     margin: 0 auto;
+
+    .content-text {
+        text-align: center;
+        
+        h3 {
+            padding-bottom: 0.7em;
+        }
+        .content-head,
+        .content-about,
+        .content-why {
+            padding: 5em 2em;
+        }
+    }
 }
 
-.home-wrapper .content-text {
-    margin: 4em 0 2em 0;
-    text-align: center;
+/* content head STRAT */
+
+.content-text .content-head {
+    border-bottom: 3px solid rgb(124, 124, 124);
+    img {
+        margin-top: 2em;
+        width: 500px;
+        box-shadow: 0 0 10px 0;
+    }
 }
 
-.content-text .part {
-    margin-bottom: 8em;
-}
-
-.content-text h3 {
-    padding-bottom: 0.5em;
-}
-
-/* content head start */
-
-.content-text .content-head img {
-    margin-top: 2em;
-    width: 500px;
-    box-shadow: 0 0 10px 0;
-}
-
-/*content head end */
+/*content head END */
 
 
-/* About start */
-
+/* About START */
 .content-text .content-about {
-
+    border-bottom: 3px solid rgb(124, 124, 124);
 }
 
 .content-text .content-about .icons-info {
@@ -66,6 +64,14 @@
 .content-text .content-about .icons-info .icon-second { color: rgb(227, 230, 52); }
 .content-text .content-about .icons-info .icon-third { color: rgb(247, 8, 40); }
 
+/* About END */
+
+/* Why us START */
+
+.content-text .content-why {
+    /* TO DOOOOOOOOOO */
+}
+
 .content-text .content-why section {
     margin: 1em 8em 3em 8em;
 }
@@ -89,6 +95,4 @@
     box-shadow: 0 0 10px 0;
     border: 1px solid black;
 }
-
-
-/* About end */
+/* Why us END */
