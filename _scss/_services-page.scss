@@ -46,14 +46,11 @@
         }
         .card-text {
             padding: 1em 4em;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             li {
                 font-size: 20px;
-                flex: 1 1 50%;
                 text-transform: lowercase;
-
             }
         }
 
