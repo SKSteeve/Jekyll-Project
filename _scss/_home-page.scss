@@ -1,9 +1,21 @@
 .home-wrapper {
-    max-width: 55em;
-    margin: 0 auto;
 
     .content-text {
-        text-align: center;
+        .part {
+            max-width: 57em;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .sec1-color {
+            background-color: rgb(250, 250, 250);
+        }
+        .sec2-color {
+            background-color: rgb(59, 59, 59);
+            color: rgb(233, 233, 233);
+        }
+        .sec3-color {
+            background-color: rgb(250, 250, 250);
+        }
         
         h3 {
             padding-bottom: 1.5em;
@@ -19,7 +31,6 @@
 /* content head STRAT */
 
 .content-text .content-head {
-    border-bottom: 3px solid rgb(124, 124, 124);
     img {
         margin-top: 2em;
         width: 500px;
@@ -35,7 +46,9 @@
 .content-text {
 
     .content-about {
-        border-bottom: 3px solid rgb(124, 124, 124);
+        h3 {
+            color: white;
+        }
 
         .icons-info {
             margin: 3em 5em 2em 5em;
