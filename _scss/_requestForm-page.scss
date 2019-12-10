@@ -9,6 +9,15 @@ input:-webkit-autofill:active {
     transition: 5000s ease-in-out 0s;
 }
 
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 .contact-form {
     display: flex;
     flex-wrap: wrap;
