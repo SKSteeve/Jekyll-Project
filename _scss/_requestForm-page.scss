@@ -4,28 +4,24 @@
     background-size: cover;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:active {
-    transition: 5000s ease-in-out 0s;
-}
-
-textarea,
-input.text,
-input[type="text"],
-input[type="button"],
-input[type="submit"] {
-  -webkit-appearance: none;
-  border-radius: 0;
-}
-
 .contact-form {
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
     margin: 0 auto;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.6);
     padding: 30px;
     border-radius: 5px;
+    ::placeholder {
+        color: rgb(228, 61, 61);
+    }
+
+    .required-info,
+    .text-area-submit {
+        display: flex;
+        flex: 1 1 48%;
+        flex-direction: column;
+    }
 
     .required-info {
         margin-right: 4%;
@@ -38,7 +34,6 @@ input[type="submit"] {
             padding: 10px;
             outline: none;
             color: white;
-            
         }
 
         .about-subject {
@@ -57,42 +52,49 @@ input[type="submit"] {
         }
     }
 
-    ::placeholder {
-        color: rgb(228, 61, 61);
-    }
-
-    textarea {
-        background: transparent;
-        border: 0;
-        border-bottom: 2px solid rgb(228, 61, 61);
-        padding: 10px;
-        height: 197px;
-        outline: none;
-        color: white;
-    }
-
-    .required-info,
-    .text-area {
-        display: flex;
-        flex: 1 1 48%;
-        flex-direction: column;
-    }
-
-    .submit {
-        margin-top: 20px;
-        background:  rgb(228, 61, 61);
-        border: 0;
-        padding: 10px;
-        border-radius: 5px;
-        cursor: pointer;
-        color: white;
-        text-transform: uppercase;
-        width: 100%;
+    .text-area-submit {
+        textarea {
+            background: transparent;
+            border: 0;
+            border-bottom: 2px solid rgb(228, 61, 61);
+            padding: 10px;
+            height: 197px;
+            outline: none;
+            color: white;
+        }
+    
+        .submit {
+            margin-top: 20px;
+            background:  rgb(233, 45, 45);
+            border: 0;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            text-transform: uppercase;
+            width: 100%;
+        }
     }
 }
 
 blockquote {
     padding: 20px;
     max-width: 600px;
-    margin: auto;
+    margin: 0   auto;
+}
+
+/* removing the background from selected option */
+input:-webkit-autofill,
+input:-webkit-autofill:active {
+    transition: 5000s ease-in-out 0s;
+}
+
+/*removing the button auto style */
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
 }
