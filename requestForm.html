@@ -11,7 +11,7 @@ order: 4
 
 <div class="form-wrapper">
 
-    <form class="contact-us" method="GET">
+    <form class="contact-form" method="GET">
 
         <div class="required-info">
             <input type="text" name="name" placeholder="Вашето име" autofocus="autofocus" required>
@@ -19,7 +19,7 @@ order: 4
             <input type="text" name="tel" placeholder="Вашият телефонен номер" required>
             
             <div class="about-subject">
-                <label for="subj">Относно</label>
+                <label for="subj">Относно:</label>
                 <select id="subj" name="subject" required>
                     <option value="repair-request">Заявка за ремонт</option>
                     <option value="question">Въпрос</option>
@@ -29,16 +29,16 @@ order: 4
         </div>
 
         <div class="text-area">
-            <label for="more-inf">Допълнителна информация</label>
             <textarea name="moreInfo" id="more-inf" placeholder="Описание на повреда / Модел / Препоръки / Друго"></textarea>
+            <input type="submit" value="Изпрати" class="submit">
         </div>
         
-        <input type="submit" value="Изпрати">
+        
 
     </form>
 
     <blockquote>
-        <p>След изпращане на заявката ще получите обратна връзка по e-maila който сте оставили и ще ви се обадим до 1 работен ден.</p>
+        <p>След изпращане на заявката ще получите обратна връзка по e-maila който сте оставили и ще ви се обадим до 1 работен ден!</p>
     </blockquote>
     
 </div>	
