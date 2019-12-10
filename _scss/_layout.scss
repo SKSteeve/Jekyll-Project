@@ -20,28 +20,32 @@ body {
     margin: 0 auto;
     background-color: rgba(2, 2, 2, 0.8);
     padding: 1em 2em;
-}
-.site-header .site-branding {
-    position: relative;
-    .brand {
-        position: absolute;
-        top: -4px;
-        left: 8px;
-        font-size: 12px;
-        color: rgb(240, 240, 240);
-        text-transform: uppercase;
+    .site-branding {
+        position: relative;
+        h1 {
+            a {
+                text-decoration: none;
+                color: rgb(241, 76, 76);
+                font-family: 'Gabriela', serif;
+            }
+        }
+        .brand {
+            position: absolute;
+            top: -4px;
+            left: 8px;
+            font-size: 12px;
+            color: rgb(240, 240, 240);
+            text-transform: uppercase;
+        }
     }
 }
 
-.site-header .site-branding h1 {
-    a {
-        text-decoration: none;
-        color: rgb(241, 76, 76);
-        font-family: 'Gabriela', serif;
-    }
-}
 
 /* The site HEADER layout end */
+
+
+
+
 
 /* The every page-header-bar start */
 .page-header-bar {
@@ -51,19 +55,17 @@ body {
     color: white;
     height: 10vh;
     background-color: rgb(49, 49, 49);
+    h2 {
+        animation: headPage 2s 1s forwards;
+        white-space: nowrap;
+        opacity: 0;
+        i {
+            margin-left: 0.5em;
+            color: rgb(250, 62, 62);   
+        }
+    }
 }
 
-.page-header-bar h2 {
-    animation: headPage 2s 1s forwards;
-    white-space: nowrap;
-    opacity: 0;
-}
-
-.page-header-bar h2 i {
-    margin-left: 0.5em;
-    color: rgb(250, 62, 62);
-    
-}
 
 @keyframes headPage {
     0%   { opacity: 0; margin-right: 100vw; }
@@ -72,9 +74,13 @@ body {
 }
 /* page-header-bar end */
 
+
+
+
+
 /* The site FOOTER start */
 .site-footer {
-    background-color: rgb(197, 195, 195);;
+    background-color: rgb(197, 195, 195);
     color: rgb(88, 87, 87);
 }
 
@@ -82,43 +88,39 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 2em 14em;
-}
+    section {
+        flex-basis: 100%;
+        .title {
+            margin: 0.5em 0;
+        }
+        ul li {
+            list-style: none;
+        }
+    }
 
-.footer-main section {
-    flex-basis: 100%;
-}
+    .fast-links ul a {
+        text-decoration: none;
+        color: rgb(71, 70, 70);
+        &:hover {
+            color: royalblue;
+        }
+    }
 
-.footer-main .work-time {
-    margin-right: 0.8em;
-}
+    .work-time {
+        margin-right: 0.8em;
+        ul li:nth-child(2) { width: 8.5em; text-align: right; }
+    }
 
-.footer-main section .title {
-    margin: 0.5em 0;
-}
-
-.footer-main section ul li {
-    list-style: none;
-}
-.footer-main .work-time ul li:nth-child(2) { width: 8.5em; text-align: right; }
-
-
-.footer-main .contact-section li i {
-    width: 25px;
-    margin-right: 0.2em;
-    color: rgb(216, 47, 47);
-}
-
-.footer-main .contact-section li{
-    margin-bottom: 0.5em;
-}
-
-.footer-main ul a {
-    text-decoration: none;
-    color: rgb(71, 70, 70);   
-}
-
-.footer-main .fast-links ul a:hover {
-    color: royalblue;
+    .contact-section {
+        li {
+            margin-bottom: 0.5em;
+            i {
+                width: 25px;
+                margin-right: 0.2em;
+                color: rgb(216, 47, 47);
+            }
+        }    
+    }
 }
 
 .footer-end {
@@ -126,11 +128,10 @@ body {
     padding: 2em 0;
     margin: 0 10em;
     border-top: 2px solid rgb(117, 117, 117);
-}
-
-.footer-end p span {
-    color: rgb(236, 72, 72);
-    font-family: sans-serif;
+    p span {
+        color: rgb(236, 72, 72);
+        font-family: sans-serif;
+    }
 }
 
 /* The site FOOTER end */

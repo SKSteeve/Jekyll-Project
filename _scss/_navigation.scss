@@ -1,19 +1,17 @@
 .nav ul {
     display: flex;
-}
-
-.nav ul li {
-    display: block;
-    margin-left: 0.4em;
-}
-
-.nav a {
-    display: block;
-    padding: 0.5em 0.6em;
-    color: white;
-    text-decoration: none;
-    font-size: medium;
-    font-family: 'Gabriela', serif;
+    li {
+        display: block;
+        margin-left: 0.4em;
+        a {
+            display: block;
+            padding: 0.5em 0.6em;
+            color: white;
+            text-decoration: none;
+            font-size: medium;
+            font-family: 'Gabriela', serif;
+        }
+    }
 }
 
 .nav .current_page a,
