@@ -11,6 +11,11 @@ body {
     
 }
 
+.site-nav-label,
+.site-nav-checkbox {
+    display: none;
+}
+
 .header-section {
     display: flex;
     justify-content: space-between;

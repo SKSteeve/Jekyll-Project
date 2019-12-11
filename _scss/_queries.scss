@@ -19,11 +19,6 @@
 
 
 
-
-.site-nav-label,
-.site-nav-checkbox {
-    display: none;
-}
 @media screen and (max-width: 902px) {
 
     /* Navigation START*/
@@ -161,7 +156,7 @@
         .content-2,
         .content-3 {
             ul {
-                padding: 0 5em 3em 10em;
+                padding: 0 5em 3em 9em;
             }
         }
     }
