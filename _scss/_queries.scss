@@ -4,8 +4,13 @@
 } 
 
 @media screen and (max-width: 900px) {
-    .site-header, .header-section, .site {
-        position: static;
+
+    .site-header { 
+        
+        background-position: unset;
+        background-size: cover;
+        height: 500px;
+        
     }
 
     .nav { 
