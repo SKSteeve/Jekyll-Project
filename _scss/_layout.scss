@@ -87,9 +87,9 @@ body {
 .footer-main {
     display: flex;
     justify-content: space-between;
-    padding: 2em 14em;
+    padding: 2em 12em;
     section {
-        flex-basis: 100%;
+        flex: 1 1 100%;
         .title {
             margin: 0.5em 0;
         }
