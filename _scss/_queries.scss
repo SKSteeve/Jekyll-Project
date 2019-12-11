@@ -1,0 +1,50 @@
+.site-nav-label,
+.site-nav-checkbox {
+    display: none;
+} 
+
+@media screen and (max-width: 900px) {
+    .site-header, .header-section, .site {
+        position: static;
+    }
+
+    .nav { 
+        position: absolute;
+        top: 17.8%; left: 0; right: 0; 
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ul {
+            display: none;
+        }
+        li {
+            text-align: center;
+            padding: 20px;
+        }
+    }
+
+    .site-nav-label {
+        display: block;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .site-nav-checkbox:checked + .site-header .site-nav-label .open { display: none; }
+    .site-nav-checkbox:checked + .site-header .site-nav-label .close { display: block; }
+
+    .site-nav-checkbox + .site-header .site-nav-label .open { display: block; }
+    .site-nav-checkbox + .site-header .site-nav-label .close { display: none; }
+
+    .site-nav-checkbox:checked + .site-header .nav ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        li {
+            margin: 0;
+        }
+    }
+    
+}
