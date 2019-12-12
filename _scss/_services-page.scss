@@ -50,6 +50,14 @@
             li {
                 font-size: 20px;
                 text-transform: lowercase;
+                list-style: none;
+                &::before {
+                    content: '\f0ad';
+                    font-family: FontAwesome;
+                    color: #000;
+                    font-size: 20px;
+                    padding-right: 0.7em;
+                }
             }
         }
 
