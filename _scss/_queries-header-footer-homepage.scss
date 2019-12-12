@@ -211,10 +211,8 @@
 
 @media screen and (max-width: 386px) {
     /* Home-page START */
-    .content-text .content-head {
-        img {
-            width: 300px;
-        }
+    .content-text .content-head img{
+        width: 300px;
     }
     .site-main {
         overflow: hidden;
@@ -229,4 +227,41 @@
         }
     }
     /* Home-page END */
+}
+
+
+@media screen and (max-width: 350px) {
+     /* Home-page START */
+    .content-text .content-head img{
+        width: 260px;
+    }
+
+    .content-text .content-why .pic img {
+        width: 260px;
+    }
+     /* Home-page END */
+}
+
+@media screen and (max-width: 328px) {
+     /* Home-page START */
+    .content-about .icons-info {
+        .content-1,
+        .content-2,
+        .content-3 {
+            ul {
+                padding: 0 2em 3em 3em;
+            }
+        }
+    }
+    /* Home-page END */
+
+     /* Footer START */
+     .footer-main .work-time {
+        margin: 1em 0 0 20px;
+    }
+    
+    .footer-end {
+        margin: 0 1em;
+    }
+     /* Footer END */ 
 }
