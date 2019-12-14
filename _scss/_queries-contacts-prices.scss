@@ -1,0 +1,98 @@
+@media screen and (max-width: 1100px) {
+    /* contacts page START */
+
+    .contacts-worktime {
+        padding: 2em 5em;
+    }
+
+    .find-us .how-to {
+        padding: 2em 5em;
+    }
+
+    /* contacts page END */
+}
+
+@media screen and (max-width: 1000px) {
+    /* contacts page START */
+
+    .contacts-worktime {
+        padding: 2em 0;
+    }
+
+    .find-us .how-to {
+        padding: 2em 0;
+
+        .find-us-cont img {
+            width: 300px;
+        }
+    }
+
+    /* contacts page END */
+}
+
+@media screen and (max-width: 620px) {
+    /* contacts page START */
+
+    .contacts-worktime {
+        flex-wrap: wrap;
+        padding: 0;
+        .contacts-inf {
+            flex: 1 1 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1.5em;
+            h3 {
+                text-align: center;
+                flex: 1 1 100%;
+            }
+        }
+
+        .work-time-inf {
+            margin: 0 auto;
+            padding: 1.5em;
+        }
+    }
+
+    .find-us .how-to {
+        text-align: center;
+        padding: 1.5em;
+
+        .find-us-cont img {
+            width: 300px;
+            float: none;
+            margin: 0 auto;
+            margin-bottom: 1em;
+        }
+    }
+
+    /* contacts page END */
+}
+
+@media screen and (max-width: 420px) {
+    /* contacts page START */
+
+    .contacts-wrapper {
+        padding: 2em 0;
+    }
+
+    .find-us .how-to {
+
+        .find-us-cont img {
+            width: 270px;
+            padding: 0.2em;
+        }
+    }
+
+    /* contacts page END */
+}
+
+@media screen and (max-width: 340px) {
+    /* contacts page START */
+    
+    .find-us .how-to .find-us-cont img {
+        width: 240px;
+    }
+
+    /* contacts page END */
+}
