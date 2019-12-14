@@ -36,6 +36,7 @@
     .contacts-worktime {
         flex-wrap: wrap;
         padding: 0;
+        
         .contacts-inf {
             flex: 1 1 100%;
             display: flex;
@@ -46,6 +47,10 @@
                 text-align: center;
                 flex: 1 1 100%;
             }
+
+            ul li {
+                margin: 0 0 .6em 0;
+            }
         }
 
         .work-time-inf {
@@ -54,15 +59,21 @@
         }
     }
 
-    .find-us .how-to {
-        text-align: center;
-        padding: 1.5em;
+    .find-us {
+        .how-to {
+            text-align: center;
+            padding: 1.5em;
 
-        .find-us-cont img {
-            width: 300px;
-            float: none;
-            margin: 0 auto;
-            margin-bottom: 1em;
+            .find-us-cont img {
+                width: 300px;
+                float: none;
+                margin: 0 auto;
+                margin-bottom: 1em;
+            }
+        }
+
+        .look-for h3 {
+            text-align: center;
         }
     }
 
@@ -76,12 +87,9 @@
         padding: 2em 0;
     }
 
-    .find-us .how-to {
-
-        .find-us-cont img {
-            width: 270px;
-            padding: 0.2em;
-        }
+    .find-us .how-to .find-us-cont img {
+        width: 270px;
+        padding: 0.2em;
     }
 
     /* contacts page END */
@@ -89,7 +97,7 @@
 
 @media screen and (max-width: 340px) {
     /* contacts page START */
-    
+
     .find-us .how-to .find-us-cont img {
         width: 240px;
     }
