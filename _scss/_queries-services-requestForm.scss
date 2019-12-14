@@ -52,8 +52,11 @@
     /* Request-Form START*/
     .form-wrapper {
         padding: 0;
-        .contact-form .required-info .about-subject {
-            margin: 20px 10px;
+        .contact-form {
+            border-radius: 0;
+            .required-info .about-subject {
+                margin: 20px 10px;
+            }
         }
     }
     /* Request-Form END*/
