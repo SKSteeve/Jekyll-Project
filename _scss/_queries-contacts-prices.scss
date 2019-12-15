@@ -1,4 +1,27 @@
+
+
 @media screen and (max-width: 1100px) {
+
+    /* Prices page START */
+    .prices-wrapper {
+
+        .prices-rows {
+            flex: 1 1 65%;
+        }
+
+        .navigation-links {
+            display: grid;
+            grid-template-columns: 1fr;
+            flex: 1 1 30%;
+            a {
+                text-align: center;
+            }
+        }
+    }
+    /* Prices page END */
+
+
+
     /* contacts page START */
 
     .contacts-worktime {
@@ -28,6 +51,28 @@
     }
 
     /* contacts page END */
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    /* Prices page START */
+    .prices-wrapper {
+        flex-wrap: wrap;
+        .prices-rows {
+            flex: 1 1 100%;
+            order: 2;
+        }
+
+        .navigation-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            order: 1;
+            margin: 0 auto;
+            margin-bottom: 3em;
+        }
+    }
+    /* Prices page END */
 }
 
 @media screen and (max-width: 620px) {
@@ -78,6 +123,19 @@
     }
 
     /* contacts page END */
+}
+
+@media screen and (max-width: 510px) {
+
+    /* Prices page START */
+    .prices-wrapper {
+        .navigation-links {
+            grid-template-columns: 1fr;
+            margin-bottom: 20em;
+        }
+    }
+    /* Prices page END */
+
 }
 
 @media screen and (max-width: 420px) {

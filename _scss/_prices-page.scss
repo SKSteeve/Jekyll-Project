@@ -1,3 +1,47 @@
-.prices-page {
-    
+.prices-wrapper {
+    padding: 2em;
+    display: flex;
+
+    .prices-rows {
+        flex: 1 1 65%;
+        h3 {
+            text-align: center;
+            padding-top: 1em;
+        }
+        .price-row {
+            background-color: rgb(197, 35, 35);
+            color: rgb(252, 248, 248);
+            padding: 1em;
+            margin: 0.5em 0;
+            border-radius: 1em;
+
+            .price-right 
+            {
+                float: right;
+            }
+        }
+    }
+
+    .navigation-links {
+        flex: 0 0 30%;
+        height: 300px;
+        margin: 3em 0 0 3em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        a {
+            text-decoration: none;
+            background-color: rgb(40, 161, 94);
+            color: white;
+            margin: 0.5em;
+            padding: 0.5em;
+            border-radius: 20px;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+                background: rgb(230, 62, 62);
+            }
+        }
+    }
 }
