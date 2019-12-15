@@ -1,5 +1,8 @@
+$page-card-buttons-color: #da2727;
+
+
 .services-page h2 span {
-    color: rgb(250, 62, 62);;
+    color: rgb(250, 62, 62);
 }
 
 .service-buttons {
@@ -25,7 +28,7 @@
         font-size: 20px;
         &:hover { 
             transform: scale(1.1);
-            background: rgb(230, 62, 62);
+            background: $page-card-buttons-color;
         }
     }
 }
@@ -39,7 +42,7 @@
         margin-bottom: 3em;
         h2 {
             padding: 1em;
-            background-color: rgb(214, 55, 55);
+            background-color: $page-card-buttons-color;
             color: rgb(253, 249, 249);
             border-bottom-right-radius: 80px;
         }

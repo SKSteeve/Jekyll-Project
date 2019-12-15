@@ -1,3 +1,5 @@
+$page-icons-color: rgb(216, 47, 47);
+
 .contacts-wrapper {
     color: rgb(68, 63, 63);
     max-width: 65em;
@@ -23,14 +25,10 @@
     .contacts-inf ul li {
         margin: 0.3em 0;
 
-        i {
+        i, a {
             width: 25px;
             margin-right: 0.2em;
-            color: rgb(216, 47, 47);
-        }
-
-        a {
-            color: rgb(216, 47, 47);
+            color: $page-icons-color;
         }
     }
 
