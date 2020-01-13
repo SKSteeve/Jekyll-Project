@@ -2,6 +2,7 @@
 
 Building Jekyll-HTML&CSS car service website.
 Link - https://sksteeve.github.io/Jekyll-Project/ 
+Now live - https://avtoserviz-autokris.com/
 #
 **Design** and **implement** a website about a topic of **YOUR CHOICE** using mainly **HTML & CSS**. The site should follow several requirements which are stated below. Any additional technologies and techniques that you use will be treated as **bonuses**. Do **NOT SACRIFICE REQUIRED** functionality for **UNREQUIRED** functionality. Implement first what is required and only then, think of additional things that can be added.
 
