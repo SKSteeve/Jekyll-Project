@@ -2,7 +2,6 @@
 
 Building Jekyll-HTML&CSS car service website.
 Link - https://sksteeve.github.io/Jekyll-Project/ 
-Now live - https://avtoserviz-autokris.com/
 
 Technology stack used: HTML, CSS(sass) and I also used php mail() function for e-mail sending(not uploaded in the repo).
 #
